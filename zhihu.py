@@ -49,7 +49,7 @@
  #                               $&########&o
 '''
 
-#hehe
+#last
 
 # Build-in / Std
 import os, sys, time, platform, random
