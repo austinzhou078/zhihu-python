@@ -49,7 +49,7 @@
  #                               $&########&o
 '''
 
-#xxxxx
+#today
 
 # Build-in / Std
 import os, sys, time, platform, random
