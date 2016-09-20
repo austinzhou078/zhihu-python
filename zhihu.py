@@ -1272,7 +1272,7 @@ class Collection:
                                 question_url = "http://www.zhihu.com" + question_link.a["href"]
                                 question_title = question_link.a.string.encode("utf-8")
                             question = Question(question_url, question_title)
-                            answer_url = "http://www.zhihu.com" + answer.find("span", class_="answer-date-link-wrap").a[
+                            answer_url = "http://www.zhihu.com + answer.find("span", class_="answer-date-link-wrap").a[
                                 "href"]
                             author = None
                             if answer.find("div", class_="zm-item-answer-author-info").get_text(strip='\n') == u"匿名用户":
